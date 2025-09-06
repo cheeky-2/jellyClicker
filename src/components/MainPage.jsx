@@ -13,8 +13,8 @@ function Main() {
 
     return (
     <div>
-        <h1>달달구리: {score}</h1>
-        <button onClick={() => dispatch(addScore())}><img src={mainItem} alt="" /></button>
+        <h1 style={{textAlign:"center", fontSize:'1.75rem', marginTop:'20px', fontWeight:'600'}}>달달구리: {score}</h1>
+        <button onClick={() => dispatch(addScore())} style={{width:'400px', margin:'40px auto 60px', display:"block"}}><img src={mainItem} alt="" style={{width:'100%'}} /></button>
         <MenuAll />
     </div>
     );
