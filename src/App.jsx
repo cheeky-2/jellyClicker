@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { tick } from "./store";
-import Main from "./components/Main";
+import Main from "./components/MainPage";
 
 function App() {
   const dispatch = useDispatch();
