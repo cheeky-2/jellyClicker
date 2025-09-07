@@ -1,0 +1,4 @@
+.main_page {}
+.main_page h1 {text-align:center; font-size:1.75rem; margin-top:20px; font-weight:600;}
+.main_page button {width:400px; margin:40px auto 60px; display:block;}
+.main_page button img {width:100%;}
