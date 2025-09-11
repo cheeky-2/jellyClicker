@@ -12,10 +12,7 @@ function BottomMenu() {
         <h2>Item - Menu</h2>
         {bottomMenus.map((menu) =>
         purchasedMenus.includes(menu.name) ? null : (
-            <button
-            key={menu.name}
-            onClick={() => dispatch(buyMenu(menu))}
-            >
+            <button key={menu.name} onClick={() => dispatch(buyMenu(menu))} className="bottom_btn">
                 <div className="bottom_wrap">
                     <img src={menu.img} alt={menu.name} />
                     <div className="title_cost"><em>{menu.name}</em><span>(-{menu.cost}달달구리)</span></div>
